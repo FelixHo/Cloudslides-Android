@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/live_meeting_main_layout"
+    android:background="#e2e2e2"
+    tools:context=".PlaySlidesActivity">
+    
+    <net.cloudslides.app.thirdlibs.widget.photoview.ZoomAbleViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/live_meeting_viewpager"/>
+    
+    <net.cloudslides.app.custom.widget.MultiDirectionSlidingDrawer
+		xmlns:my="http://schemas.android.com/apk/res/net.cloudslides.app"
+		android:id="@+id/live_meeting_drawer"
+		my:direction="leftToRight"
+		android:layout_width="150dp"
+		android:layout_height="fill_parent"
+		my:handle="@+id/handle"
+		my:content="@+id/content">
+		<include
+			android:id="@id/content"
+			layout="@layout/live_meeting_drawer_layout" />
+		<ImageView
+			android:id="@id/handle"
+			android:layout_width="20dp"
+			android:layout_height="fill_parent"
+			android:background="@drawable/handle" />
+	</net.cloudslides.app.custom.widget.MultiDirectionSlidingDrawer>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/translucent"
+        android:id="@+id/live_meeting_covert_frame"
+        android:visibility="gone"></FrameLayout>
+</RelativeLayout>
