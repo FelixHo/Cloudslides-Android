@@ -1,6 +1,6 @@
-LivePPT-Android
+Cloudslides-Android
 ==========================
-Android Client for LivePPT
+Android Client for Cloudslides
 
 Note that:(2013/8/1)
 
