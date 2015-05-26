@@ -34,7 +34,7 @@ d. Original Integrated Development Environments: Android Studio 0.2.x
   --或者随便新建一个工程进入项目后重新配置你的Android SDK Home Path【右击你的工程，选择Open Module Setting-SDKS】
 
 
-###官方提醒原文：
+######官方提醒原文：
 
 >Caution: 
 
