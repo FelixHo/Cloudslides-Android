@@ -15,7 +15,7 @@ d. Original Integrated Development Environments: Android Studio 0.2.x
 
 基于Intellij IDEA / Android Studio开发平台代码部署指南(2013/7/18)  
 =
-######【IDE更新至Android Studio 0.2.x】（2013/7/18）
+###【IDE更新至Android Studio 0.2.x】（2013/7/18）
 
 1.从0.1.x版本升级到0.2.x版本前建议先将Android Studio目录下的SDK目录备份，否则安装新版本时会被覆盖，
 
@@ -34,7 +34,7 @@ d. Original Integrated Development Environments: Android Studio 0.2.x
   --或者随便新建一个工程进入项目后重新配置你的Android SDK Home Path【右击你的工程，选择Open Module Setting-SDKS】
 
 
-######官方提醒原文：
+###官方提醒原文：
 
 >Caution: 
 
@@ -57,7 +57,7 @@ d. Original Integrated Development Environments: Android Studio 0.2.x
 >ClassCastException or other unexpected behaviors. It's best if you remove your previous version of Android Studio 0.1.x.
 
 
-######请确保你已部署以下环境变量：（2013/7/18）  
+###请确保你已部署以下环境变量：（2013/7/18）  
 
 1.ANDROID_SDK_HOME:在系统环境变量中创建“ANDROID_SDK_HOME”变量，路径为你的android sdk 目录，例如D:\Android_SDK
 
@@ -84,7 +84,7 @@ d. Original Integrated Development Environments: Android Studio 0.2.x
  gradle，那么本目录下就有残留的不完整的文件，故先删除之。
 
 
-######请打开并确保你的Android SDK Manager[SDK Manager.exe]至少达到以下要求，否则请先更新对应内容（2013/7/18）
+###请打开并确保你的Android SDK Manager[SDK Manager.exe]至少达到以下要求，否则请先更新对应内容（2013/7/18）
 
 Tools：
 
@@ -103,7 +103,7 @@ Android Support Library ：最新
 其他的API请根据应用程序的版本要求更新
 
 
-######导入已有工程须知（2013/7/18）：
+###导入已有工程须知（2013/7/18）：
 
 打开工程目录下的build.gradle,对应的内容检查/修改如下（若符合则无须修改）
 
@@ -121,7 +121,7 @@ classpath 'com.android.tools.build:gradle:0.5.+' 【Android Studio 0.2.x 的新g
 
 
 
-######导入已有工程步骤（2013/8/1）
+###导入已有工程步骤（2013/8/1）
 
 S1:File-Import Project
 
